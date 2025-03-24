@@ -1,0 +1,23 @@
+.student_details {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.student_details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student_details th,
+.student_details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.student_details th {
+    background: #007bff;
+    color: white;
+}

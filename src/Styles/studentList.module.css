@@ -1,0 +1,33 @@
+.student_list {
+    margin: 20px;
+}
+
+.student_list table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.student_list th,
+.student_list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.student_list th {
+    background: #007bff;
+    color: white;
+}
+
+.view_btn {
+    text-decoration: none;
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.view_btn:hover {
+    background: #218838;
+}

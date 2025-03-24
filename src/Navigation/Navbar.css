@@ -1,0 +1,61 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar .logo a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #007bff;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
