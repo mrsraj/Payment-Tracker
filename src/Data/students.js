@@ -2,7 +2,7 @@ const students = [
     {
         id: 1,
         name: "Amit",
-        branch: "Coaching A",
+        branch: "Branch A",
         joiningDate: "2023-06-10",
         totalFee: 20000,
         depositedFee: 18000,
@@ -15,7 +15,7 @@ const students = [
     {
         id: 2,
         name: "Sita",
-        branch: "Coaching B",
+        branch: "Branch B",
         joiningDate: "2023-07-05",
         totalFee: 18000,
         depositedFee: 14000,
@@ -28,7 +28,7 @@ const students = [
     {
         id: 3,
         name: "Raj",
-        branch: "Coaching A",
+        branch: "Branch A",
         joiningDate: "2023-08-01",
         totalFee: 25000,
         depositedFee: 22000,
@@ -41,7 +41,7 @@ const students = [
     {
         id: 4,
         name: "Neha",
-        branch: "Coaching C",
+        branch: "Branch C",
         joiningDate: "2023-09-12",
         totalFee: 22000,
         depositedFee: 20000,
@@ -54,7 +54,7 @@ const students = [
     {
         id: 5,
         name: "Kunal",
-        branch: "Coaching D",
+        branch: "Branch D",
         joiningDate: "2023-10-05",
         totalFee: 19000,
         depositedFee: 18500,
@@ -67,7 +67,7 @@ const students = [
     {
         id: 6,
         name: "Rahul",
-        branch: "Coaching A",
+        branch: "Branch A",
         joiningDate: "2023-05-15",
         totalFee: 21000,
         depositedFee: 19000,
@@ -80,7 +80,7 @@ const students = [
     {
         id: 7,
         name: "Priya",
-        branch: "Coaching B",
+        branch: "Branch B",
         joiningDate: "2023-06-20",
         totalFee: 18000,
         depositedFee: 15000,
@@ -93,7 +93,7 @@ const students = [
     {
         id: 8,
         name: "Vikas",
-        branch: "Coaching C",
+        branch: "Branch C",
         joiningDate: "2023-07-10",
         totalFee: 20000,
         depositedFee: 17000,
@@ -106,7 +106,7 @@ const students = [
     {
         id: 9,
         name: "Anjali",
-        branch: "Coaching D",
+        branch: "Branch D",
         joiningDate: "2023-08-05",
         totalFee: 19500,
         depositedFee: 16000,
@@ -119,7 +119,7 @@ const students = [
     {
         id: 10,
         name: "Manoj",
-        branch: "Coaching E",
+        branch: "Branch E",
         joiningDate: "2023-09-12",
         totalFee: 22000,
         depositedFee: 19000,
